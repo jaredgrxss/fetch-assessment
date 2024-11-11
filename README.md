@@ -17,5 +17,5 @@ In order to run the service (with Go installed) locally simply,
 
 # Considerations
 - Future iterations could have unit testing added
-- Storing data in memory in production would not be ideal if data is required to be non-volatile, switching to a DB woudl be a logical follow-up in that case
+- Storing data in memory in production would not be ideal if data is required to be non-volatile, switching to a DB would be a logical follow-up in that case
 - Validation is handled at a type level, so ensuring no malicious actors / payloads was considered here. 
